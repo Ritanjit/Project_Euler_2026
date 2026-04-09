@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    // crossing out non-primes using numbers till root of 20;
+    // crossing out non-primes using first prime 2 and later on numbers till root of 20;
     for (int i=2; i<=sqrt(20); i++) {
         for (int j=i*i; j<=20; j+=i) {
             isPrime[j] = false;
